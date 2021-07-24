@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipti da cafe</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+
+
+    body {
+        
+        margin: 0px;
+        padding: 0px;
+        background: url('img/cup-of-coffee-1280537_1280.jpg');
+        background-size: cover;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+
+        width: 40px;
+        padding-left: 32px;
+
+
+
+
+    }
+
+    .left div {
+        line-height: 12px;
+                color: powderblue;
+        font-size: 18px;
+
+    }
+
+    .mid {
+
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        color: black;
+        font-weight: bolder;
+        font-size: 20px;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: inline-block;
+        /* border: 2px solid violet; */
+    }
+
+    .navbar {
+
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+
+        color: black;
+        text-shadow: orangered;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: orangered;
+    }
+
+    .btn {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: rgb(233, 93, 42);
+        padding: 4px 14px;
+        border-radius: 14px;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+
+        background-color: rgb(240, 218, 210);
+    }
+
+    .container {
+
+        /* border: 3px solid rgb(39, 20, 14); */
+        margin: 93px 189px;
+        padding: 10px 17px;
+        width: 33%;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: orangered;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .group input {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        display: block;
+        width: 434px;
+        padding: 5px;
+        border: 2px solid #e94216;
+        margin: 5px auto;
+        border-radius: 8px;
+    }
+    .container button {
+        display: block;
+        margin: 20px auto;
+        padding: 6px;
+        width: 98%;
+        background-color: black;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <img src="img/coffee-logo.png">
+            <div>
+
+                Deps da cafe
+            </div>
+
+
+        </div>
+
+        <div class="mid">
+
+            <ul class="navbar">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <div class="right">
+
+            <button class="btn">Call Us now</button>
+
+            <button class="btn">Email Us</button>
+
+        </div>
+
+
+
+    </header>
+
+    <div class="container">
+        <h1>Welcome to best coffee house in <strong> Mehsana now</strong></h1>
+        <form action="noaction.php">
+
+            <div class="group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="group">
+                <input type="email" name="" placeholder="Enter your Email">
+            </div>
+            <div class="group">
+                <input type="number" name="" placeholder="Enter your Mobile number">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
